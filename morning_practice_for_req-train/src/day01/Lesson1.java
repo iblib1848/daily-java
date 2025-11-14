@@ -22,11 +22,20 @@ package day01;
 public class Lesson1 {
 
 	public static void main(String[] args) {
-		int a;
-		a =1;
-		System.out.println(a);
-		System.out.println("ようこそJavaへ");
-
+		
+		int num = 12;
+		double dnum = 1.6;
+		//helloにあいさつを代入する
+		String hello ="こんにちは";
+		boolean b = true;
+		
+		System.out.println("出力します");
+		System.out.println(num);
+		System.out.println(dnum);
+		System.out.println(hello + "\n" + b);
+		
+		
+	
 	}
 
 }
